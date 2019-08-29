@@ -21,19 +21,19 @@ Before compile SPDF3D project. You need compile this dependicies:
 
 ### Using CMake
 You should run cmake gui and configure necessary variables. Optionaly, you can using terminal:
-> cmake <path_to_source> \
->	-GLM_ROOT_DIR=<path> \
->	-HARU_INCLUDES_DIR=<path> \
->	-HARU_DBG_LIB_DIR=<path> \
->	-HARU_OPT_LIB_DIR=<path> \
->	-PRC_INCLUDES_DIR=<path> \
->	-PRC_DBG_LIBS_DIR=<path> \
->	-PRC_OPT_LIBS_DIR=<path> \
->	-OCS_INCLUDES_DIR=<path> \
->	-OCS_DBG_LIBS_DIR=<path> \
->	-OCS_OPT_LIBS_DIR=<path> \
->	-ZLIB_DBG_LIBS_DIR=<path> \
->	-ZLIB_OPT_LIBS_DIR=<path> \
+cmake <path_to_source> \
+	-GLM_ROOT_DIR=<path> \
+	-HARU_INCLUDES_DIR=<path> \
+	-HARU_DBG_LIB_DIR=<path> \
+	-HARU_OPT_LIB_DIR=<path> \
+	-PRC_INCLUDES_DIR=<path> \
+	-PRC_DBG_LIBS_DIR=<path> \
+	-PRC_OPT_LIBS_DIR=<path> \
+	-OCS_INCLUDES_DIR=<path> \
+	-OCS_DBG_LIBS_DIR=<path> \
+	-OCS_OPT_LIBS_DIR=<path> \
+	-ZLIB_DBG_LIBS_DIR=<path> \
+	-ZLIB_OPT_LIBS_DIR=<path> \
 
 [OpenCascade]: https://github.com/tpaviot/oce
 [Libharu]: https://github.com/libharu/libharu
