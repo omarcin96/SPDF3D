@@ -1,0 +1,3 @@
+[submodule "lib/stepcode"]
+	path = lib/stepcode
+	url = https://github.com/stepcode/stepcode
