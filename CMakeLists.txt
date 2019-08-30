@@ -19,6 +19,9 @@ endif()
 
 message("Configuration types: " ${CMAKE_CONFIGURATION_TYPES})
 
+# Preprocessor flags:
+add_compile_definitions(GLM_FORCE_XYZW_ONLY)
+
 # Globals:
 set(GLM_ROOT_DIR "C:/glm/" CACHE PATH "GLM library path")
 set(HARU_INCLUDES_DIR "C:/libharu-build/include" CACHE PATH "libharu includes dir")
