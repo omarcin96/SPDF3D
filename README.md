@@ -9,11 +9,8 @@
 
 ## Usage
 ```
-SPDF3D.exe -i <input_step_path> -o <output_pdf_path>
+SPDF3D.exe -i <path_to_step> -o <save_path_pdf3d>
 ```
-Where:
-i - path to load step file.
-o - save path pdf 3d.
 
 ## Motivation
 I created this program because, i couldn't find free and opensource converter. I used this program to convert lots of files in company.
